@@ -16,10 +16,11 @@ import core.db.DataBase;
 import next.model.User;
 
 @WebServlet(value = { "/users/create", "/users/form" })
-public class CreateUserController extends HttpServlet {
+public class CreateUserController extends HttpServletimplements Controller {
     private static final long serialVersionUID = 1L;
     private static final Logger log = LoggerFactory.getLogger(CreateUserController.class);
-
+    
+    
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         RequestDispatcher rd = req.getRequestDispatcher("/user/form.jsp");
