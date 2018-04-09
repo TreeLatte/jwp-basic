@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html;charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
 <html lang="kr">
 <head>
@@ -57,10 +59,10 @@
         <div class="collapse navbar-collapse" id="navbar-collapse2">
             <ul class="nav navbar-nav navbar-right">
                 <li class="active"><a href="../index.html">Posts</a></li>
-                <li><a href="../user/login.html" role="button">로그인</a></li>
-                <li><a href="../user/form.html" role="button">회원가입</a></li>
-                <li><a href="#" role="button">로그아웃</a></li>
-                <li><a href="#" role="button">개인정보수정</a></li>
+                <li><a href="../user/login.html" role="button">ë¡ê·¸ì¸</a></li>
+                <li><a href="../user/form.html" role="button">íìê°ì</a></li>
+                <li><a href="#" role="button">ë¡ê·¸ìì</a></li>
+                <li><a href="#" role="button">ê°ì¸ì ë³´ìì </a></li>
             </ul>
         </div>
     </div>
@@ -71,18 +73,18 @@
       <div class="panel panel-default content-main">
           <form name="question" method="post" action="">
               <div class="form-group">
-                  <label for="writer">글쓴이</label>
-                  <input class="form-control" id="writer" name="writer" placeholder="글쓴이"/>
+                  <label for="writer">ê¸ì´ì´</label>
+                  <input class="form-control" id="writer" name="writer" placeholder="ê¸ì´ì´"/>
               </div>
               <div class="form-group">
-                  <label for="title">제목</label>
-                  <input type="text" class="form-control" id="title" name="title" placeholder="제목"/>
+                  <label for="title">ì ëª©</label>
+                  <input type="text" class="form-control" id="title" name="title" placeholder="ì ëª©"/>
               </div>
               <div class="form-group">
-                  <label for="contents">내용</label>
+                  <label for="contents">ë´ì©</label>
                   <textarea name="contents" id="contents" rows="5" class="form-control"></textarea>
               </div>
-              <button type="submit" class="btn btn-success clearfix pull-right">질문하기</button>
+              <button type="submit" class="btn btn-success clearfix pull-right">ì§ë¬¸íê¸°</button>
               <div class="clearfix" />
           </form>
         </div>

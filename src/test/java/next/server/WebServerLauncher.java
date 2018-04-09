@@ -1,4 +1,4 @@
-package next;
+package next.server;
 
 import java.io.File;
 

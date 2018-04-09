@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html;charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
 <html lang="kr">
 <head>
@@ -57,10 +59,10 @@
         <div class="collapse navbar-collapse" id="navbar-collapse2">
             <ul class="nav navbar-nav navbar-right">
                 <li class="active"><a href="../index.html">Posts</a></li>
-                <li><a href="../user/login.html" role="button">로그인</a></li>
-                <li><a href="../user/form.html" role="button">회원가입</a></li>
-                <li><a href="#" role="button">로그아웃</a></li>
-                <li><a href="#" role="button">개인정보수정</a></li>
+                <li><a href="../user/login.html" role="button">ë¡ê·¸ì¸</a></li>
+                <li><a href="../user/form.html" role="button">íìê°ì</a></li>
+                <li><a href="#" role="button">ë¡ê·¸ìì</a></li>
+                <li><a href="#" role="button">ê°ì¸ì ë³´ìì </a></li>
             </ul>
         </div>
     </div>
@@ -70,7 +72,7 @@
     <div class="col-md-12 col-sm-12 col-lg-12">
         <div class="panel panel-default">
           <header class="qna-header">
-              <h2 class="qna-title">InitializingBean implements afterPropertiesSet() 호출되지 않는 문제.</h2>
+              <h2 class="qna-title">InitializingBean implements afterPropertiesSet() í¸ì¶ëì§ ìë ë¬¸ì .</h2>
           </header>
           <div class="content-main">
               <article class="article">
@@ -80,29 +82,29 @@
                       </div>
                       <div class="article-header-text">
                           <a href="/users/92/kimmunsu" class="article-author-name">kimmunsu</a>
-                          <a href="/questions/413" class="article-header-time" title="퍼머링크">
+                          <a href="/questions/413" class="article-header-time" title="í¼ë¨¸ë§í¬">
                               2015-12-30 01:47
                               <i class="icon-link"></i>
                           </a>
                       </div>
                   </div>
                   <div class="article-doc">
-                      <p>A 에 의존성을 가지는 B라는 클래스가 있습니다.</p><p>B라는 클래스는 InitializingBean 을 상속하고 afterPropertiesSet을 구현하고 있습니다.
-                      서버가 가동되면서 bean들이 초기화되는 시점에 B라는 클래스의 afterPropertiesSet 메소드는</p><p>A라는 클래스의 특정 메소드인 afunc()를 호출하고 있습니다.</p>
+                      <p>A ì ìì¡´ì±ì ê°ì§ë Bë¼ë í´ëì¤ê° ììµëë¤.</p><p>Bë¼ë í´ëì¤ë InitializingBean ì ììíê³  afterPropertiesSetì êµ¬ííê³  ììµëë¤.
+                      ìë²ê° ê°ëëë©´ì beanë¤ì´ ì´ê¸°íëë ìì ì Bë¼ë í´ëì¤ì afterPropertiesSet ë©ìëë</p><p>Aë¼ë í´ëì¤ì í¹ì  ë©ìëì¸ afunc()ë¥¼ í¸ì¶íê³  ììµëë¤.</p>
                   </div>
                   <div class="article-util">
                       <ul class="article-util-list">
                           <li>
-                              <a class="link-modify-article" href="/questions/423/form">수정</a>
+                              <a class="link-modify-article" href="/questions/423/form">ìì </a>
                           </li>
                           <li>
                               <form class="form-delete" action="/questions/423" method="POST">
                                   <input type="hidden" name="_method" value="DELETE">
-                                  <button class="link-delete-article" type="submit">삭제</button>
+                                  <button class="link-delete-article" type="submit">ì­ì </button>
                               </form>
                           </li>
                           <li>
-                              <a class="link-modify-article" href="/index.html">목록</a>
+                              <a class="link-modify-article" href="/index.html">ëª©ë¡</a>
                           </li>
                       </ul>
                   </div>
@@ -110,7 +112,7 @@
 
               <div class="qna-comment">
                   <div class="qna-comment-slipp">
-                      <p class="qna-comment-count"><strong>2</strong>개의 의견</p>
+                      <p class="qna-comment-count"><strong>2</strong>ê°ì ìê²¬</p>
                       <div class="qna-comment-slipp-articles">
 
                           <article class="article" id="answer-1405">
@@ -119,24 +121,24 @@
                                       <img src="https://graph.facebook.com/v2.3/1324855987/picture" class="article-author-thumb" alt="">
                                   </div>
                                   <div class="article-header-text">
-                                      <a href="/users/1/자바지기" class="article-author-name">자바지기</a>
-                                      <a href="#answer-1434" class="article-header-time" title="퍼머링크">
+                                      <a href="/users/1/ìë°ì§ê¸°" class="article-author-name">ìë°ì§ê¸°</a>
+                                      <a href="#answer-1434" class="article-header-time" title="í¼ë¨¸ë§í¬">
                                           2016-01-12 14:06
                                       </a>
                                   </div>
                               </div>
                               <div class="article-doc comment-doc">
-                                  <p>이 글만으로는 원인 파악하기 힘들겠다. 소스 코드와 설정을 단순화해서 공유해 주면 같이 디버깅해줄 수도 있겠다.</p>
+                                  <p>ì´ ê¸ë§ì¼ë¡ë ìì¸ íìíê¸° íë¤ê² ë¤. ìì¤ ì½ëì ì¤ì ì ë¨ìíí´ì ê³µì í´ ì£¼ë©´ ê°ì´ ëë²ê¹í´ì¤ ìë ìê² ë¤.</p>
                               </div>
                               <div class="article-util">
                                   <ul class="article-util-list">
                                       <li>
-                                          <a class="link-modify-article" href="/questions/413/answers/1405/form">수정</a>
+                                          <a class="link-modify-article" href="/questions/413/answers/1405/form">ìì </a>
                                       </li>
                                       <li>
                                           <form class="form-delete" action="/questions/413/answers/1405" method="POST">
                                               <input type="hidden" name="_method" value="DELETE">
-                                              <button type="submit" class="link-delete-article">삭제</button>
+                                              <button type="submit" class="link-delete-article">ì­ì </button>
                                           </form>
                                       </li>
                                   </ul>
@@ -148,24 +150,24 @@
                                       <img src="https://graph.facebook.com/v2.3/1324855987/picture" class="article-author-thumb" alt="">
                                   </div>
                                   <div class="article-header-text">
-                                      <a href="/users/1/자바지기" class="article-author-name">자바지기</a>
-                                      <a href="#answer-1434" class="article-header-time" title="퍼머링크">
+                                      <a href="/users/1/ìë°ì§ê¸°" class="article-author-name">ìë°ì§ê¸°</a>
+                                      <a href="#answer-1434" class="article-header-time" title="í¼ë¨¸ë§í¬">
                                           2016-01-12 14:06
                                       </a>
                                   </div>
                               </div>
                               <div class="article-doc comment-doc">
-                                  <p>이 글만으로는 원인 파악하기 힘들겠다. 소스 코드와 설정을 단순화해서 공유해 주면 같이 디버깅해줄 수도 있겠다.</p>
+                                  <p>ì´ ê¸ë§ì¼ë¡ë ìì¸ íìíê¸° íë¤ê² ë¤. ìì¤ ì½ëì ì¤ì ì ë¨ìíí´ì ê³µì í´ ì£¼ë©´ ê°ì´ ëë²ê¹í´ì¤ ìë ìê² ë¤.</p>
                               </div>
                               <div class="article-util">
                                   <ul class="article-util-list">
                                       <li>
-                                          <a class="link-modify-article" href="/questions/413/answers/1405/form">수정</a>
+                                          <a class="link-modify-article" href="/questions/413/answers/1405/form">ìì </a>
                                       </li>
                                       <li>
                                           <form class="form-delete" action="/questions/413/answers/1405" method="POST">
                                               <input type="hidden" name="_method" value="DELETE">
-                                              <button type="submit" class="link-delete-article">삭제</button>
+                                              <button type="submit" class="link-delete-article">ì­ì </button>
                                           </form>
                                       </li>
                                   </ul>

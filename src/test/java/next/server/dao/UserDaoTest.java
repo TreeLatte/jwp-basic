@@ -1,4 +1,4 @@
-package next.dao;
+package next.server.dao;
 
 import static org.junit.Assert.assertEquals;
 
@@ -11,6 +11,7 @@ import org.springframework.jdbc.datasource.init.DatabasePopulatorUtils;
 import org.springframework.jdbc.datasource.init.ResourceDatabasePopulator;
 
 import core.jdbc.ConnectionManager;
+import next.dao.UserDao;
 import next.model.User;
 
 public class UserDaoTest {
